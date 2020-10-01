@@ -1,0 +1,15 @@
+﻿  newlab5.cpp
+D:\Visual Stidio Projects\labs\VVP\Lab5\newlab5\newlab5\newlab5.cpp(18,57): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Visual Stidio Projects\labs\VVP\Lab5\newlab5\newlab5\newlab5.cpp(31,19): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\Visual Stidio Projects\labs\VVP\Lab5\newlab5\newlab5\newlab5.cpp(32,19): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\Visual Stidio Projects\labs\VVP\Lab5\newlab5\newlab5\newlab5.cpp(33,15): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+D:\Visual Stidio Projects\labs\VVP\Lab5\newlab5\newlab5\newlab5.cpp(45,19): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\Visual Stidio Projects\labs\VVP\Lab5\newlab5\newlab5\newlab5.cpp(46,19): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\Visual Stidio Projects\labs\VVP\Lab5\newlab5\newlab5\newlab5.cpp(47,14): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+D:\Visual Stidio Projects\labs\VVP\Lab5\newlab5\newlab5\newlab5.cpp(65,13): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\Visual Stidio Projects\labs\VVP\Lab5\newlab5\newlab5\newlab5.cpp(83,58): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Visual Stidio Projects\labs\VVP\Lab5\newlab5\newlab5\newlab5.cpp(84,58): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Visual Stidio Projects\labs\VVP\Lab5\newlab5\newlab5\newlab5.cpp(85,58): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Visual Stidio Projects\labs\VVP\Lab5\newlab5\newlab5\newlab5.cpp(86,20): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+D:\Visual Stidio Projects\labs\VVP\Lab5\newlab5\newlab5\newlab5.cpp(89,57): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  newlab5.vcxproj -> D:\Visual Stidio Projects\labs\VVP\Lab5\newlab5\Debug\newlab5.exe

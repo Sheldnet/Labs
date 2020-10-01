@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "задача-LabVVP5",
+      "appliesTo": "VVP/Lab5/LabVVP5.c",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "задача-LabVVP5",
+      "appliesTo": "VVP/Lab5/LabVVP5.c",
+      "type": "launch"
+    }
+  ]
+}
