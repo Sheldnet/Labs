@@ -1,0 +1,13 @@
+D:\Visual Stidio Projects\labs\VVP\Lab6\Lab6\Lab6\bin\Debug\netcoreapp3.1\Lab6.exe
+D:\Visual Stidio Projects\labs\VVP\Lab6\Lab6\Lab6\bin\Debug\netcoreapp3.1\Lab6.deps.json
+D:\Visual Stidio Projects\labs\VVP\Lab6\Lab6\Lab6\bin\Debug\netcoreapp3.1\Lab6.runtimeconfig.json
+D:\Visual Stidio Projects\labs\VVP\Lab6\Lab6\Lab6\bin\Debug\netcoreapp3.1\Lab6.runtimeconfig.dev.json
+D:\Visual Stidio Projects\labs\VVP\Lab6\Lab6\Lab6\bin\Debug\netcoreapp3.1\Lab6.dll
+D:\Visual Stidio Projects\labs\VVP\Lab6\Lab6\Lab6\bin\Debug\netcoreapp3.1\Lab6.pdb
+D:\Visual Stidio Projects\labs\VVP\Lab6\Lab6\Lab6\obj\Debug\netcoreapp3.1\Lab6.csprojAssemblyReference.cache
+D:\Visual Stidio Projects\labs\VVP\Lab6\Lab6\Lab6\obj\Debug\netcoreapp3.1\Lab6.AssemblyInfoInputs.cache
+D:\Visual Stidio Projects\labs\VVP\Lab6\Lab6\Lab6\obj\Debug\netcoreapp3.1\Lab6.AssemblyInfo.cs
+D:\Visual Stidio Projects\labs\VVP\Lab6\Lab6\Lab6\obj\Debug\netcoreapp3.1\Lab6.csproj.CoreCompileInputs.cache
+D:\Visual Stidio Projects\labs\VVP\Lab6\Lab6\Lab6\obj\Debug\netcoreapp3.1\Lab6.dll
+D:\Visual Stidio Projects\labs\VVP\Lab6\Lab6\Lab6\obj\Debug\netcoreapp3.1\Lab6.pdb
+D:\Visual Stidio Projects\labs\VVP\Lab6\Lab6\Lab6\obj\Debug\netcoreapp3.1\Lab6.genruntimeconfig.cache
