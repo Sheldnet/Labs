@@ -1,0 +1,5 @@
+﻿  Lab6_7.cpp
+D:\Visual Stidio Projects\labs\OAIP\Lab6_7\Lab6_7\Lab6_7.cpp(13,44): warning C4244: /=: преобразование "float" в "int", возможна потеря данных
+D:\Visual Stidio Projects\labs\OAIP\Lab6_7\Lab6_7\Lab6_7.cpp(42,22): warning C4244: /=: преобразование "float" в "int", возможна потеря данных
+D:\Visual Stidio Projects\labs\OAIP\Lab6_7\Lab6_7\Lab6_7.cpp(12,5): warning C4305: инициализация: усечение из "double" в "float"
+  Lab6_7.vcxproj -> D:\Visual Stidio Projects\labs\OAIP\Lab6_7\Debug\Lab6_7.exe
