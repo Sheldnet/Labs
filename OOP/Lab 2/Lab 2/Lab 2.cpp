@@ -2,8 +2,8 @@
 using namespace std;
 
 int main()
-{
-    /*
+{   
+    
     cout << "Задание 5" << endl;
     char n = 'X';
     char p = ' ';
@@ -13,6 +13,7 @@ int main()
     int n1 = 1; // количество звёздочек на первом шаге 
     int n0; // количество звёздочек на этом конкретном шаге
 
+    
     for (int i = 0; i <= 20; i++)
     {
         p0 = p1;
@@ -32,6 +33,7 @@ int main()
 
     } 
     
+    
     cout << "Задание 6" << endl;
 
     unsigned int numb;                     
@@ -50,7 +52,7 @@ int main()
         cout << "Если хотите закончить, нажмите 0: ";
         cin >> n; cout << endl;
     }   
-
+    
     
 
     cout << "Задание 7" << endl;
@@ -78,6 +80,7 @@ int main()
     cout << "В конце третьего года вы получите: " << vklad3 << " долларов"<< endl;
     cout << "По итогу у вас выйдет: " << vklad <<" долларов"<< endl;
     
+    
     cout << "Задание 8" << endl;
 
     int funt,funt1;
@@ -99,7 +102,8 @@ int main()
         cout << "Если хотите остановиться, нажмите 0:";
         cin >> next;
     } while (next == 1); 
-
+    
+    
     cout << "Задание 9" << endl;
 
     int gost, gost0;
@@ -112,7 +116,8 @@ int main()
         gost *= i;
     }
     cout << "Всего вариантов размещения: " << gost << endl; 
-
+    
+    
     cout << "Задание 10" << endl;
 
     int vklad, itogvklad, procent, s1, summ, l = 0;
@@ -126,9 +131,81 @@ int main()
         summ = s1 + summ;
         l++;
     } while (summ <= itogvklad);
-    cout << "через " << l << " лет вы получите " << summ << endl; */
+    cout << "через " << l << " лет вы получите " << summ << endl; 
+    
+    
+    cout << "Задание 11\n" << endl;
+    
+    int funt11, sheling11, penc11;
+    int funt112, sheling112, penc112;
+    int mnozh;
+    char znak;
+    int next11=0;
 
-    cout << "Задание 11" << endl;
+    do
+    {
 
+
+        cout << "Введите первый операнд: "; cin >> funt11 >> sheling11 >> penc11;
+        cout << "Введите знак операции: "; cin >> znak;
+        if (znak == '*')
+        {
+            cout << "Введите множитель: "; cin >> mnozh;
+        }
+        else
+        {
+            cout << "Введите второй операнд: "; cin >> funt112 >> sheling112 >> penc112;
+        }
+
+        switch (znak)
+        {
+        case '+':
+            penc11 = penc11 + penc112;
+            sheling11 = sheling11 + sheling112 + penc11 / 12;
+            penc11 = penc11 % 12;
+            funt11 = funt11 + funt112 + sheling11 / 20;
+            sheling11 = sheling11 % 20;
+            break;
+        case '-':
+            penc11 = penc11 - penc112;
+            sheling11 = sheling11 - sheling112 - penc11 / 12;
+            penc11 = penc11 % 12;
+            funt11 = funt11 - funt112 - sheling11 / 20;
+            sheling11 = sheling11 % 20;
+            break;
+        case '*':
+            penc11 *= mnozh;
+            sheling11 *= mnozh;
+            funt11 *= mnozh;
+            sheling11 = sheling11 + penc11 / 12;
+            penc11 = penc11 % 12;
+            funt11 = funt11 + sheling11 / 20;
+            sheling11 = sheling11 % 20;
+        }
+
+        cout << "Результат: " << funt11 << " " << sheling11 << " " << penc11 << endl;
+        cout << "Если вы хотите закончить, введите 1:"; cin >> next11;
+    } while (next11 == 0);
+    
+    
+    cout << "Задание 12" << endl;
+
+    float a12, b12, c12, d12, rez12 = 0;
+    char znak12, drop1, drop2 ;
+
+    cout << "Введите первую дробь: "; cin >> a12 >> drop1 >> b12;
+    cout << "Введите вторую дробь: "; cin >> c12 >> drop2 >> d12;
+    cout << "Введите знак: "; cin >> znak12;
+
+    switch (znak12)
+    {
+    case '+': rez12 = (a12 * d12 + b12 * c12) / (b12 * d12); break;
+    case '-': rez12 = (a12 * d12 - b12 * c12) / (b12 * d12); break;
+    case '*': rez12 = (a12 * d12) / (b12 * c12); break;
+    case '/': rez12 = (a12 * d12) / (b12 * c12); break;
+    }
+
+    cout << "Результат: " << rez12;
+  
     return 0;
 }
