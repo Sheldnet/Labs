@@ -4,62 +4,6 @@
 #define k 23
 #define n 100
 using namespace std;
-//a[i]*x[i-1]+b[i]*x[i]+c[i]*x[i+1]=d
-
-/*
-double a(int i)
-{
-	double arrA[n];
-	arrA[i] = i + k;
-	return arrA[i];
-}
-
-double b(int i)
-{
-	double arrB[n];
-	arrB[i] = pow(-1, i + k);
-	return arrB[i];
-}
-
-double c(int i)
-{
-	double arrC[n];
-	arrC[i] = pow(-i + k, i + k);
-	return arrC[i];
-}
-
-double d(int i)
-{
-	double arrD[n];
-	arrD[i] = k - i;
-	return arrD[i];
-}
-
-double U(int i)
-{
-	double arrU[n];
-	arrU[0] = -(c(0) / b(0));
-	arrU[i] = -(c(i) / (a(i) * arrU[i - 1] + b(i)));
-	return arrU[i];
-}
-
-double V(int i)
-{
-	double arrV[n];
-	arrV[0] = d(0) / b(0);
-	arrV[i] = (d(i) - a(i) * arrV[i - 1]) / (a(i) * U(i - 1) + b(i));
-	return arrV[i];
-}
-
-double x(int i)
-{
-	double arrX[n];
-	arrX[i] = U(i) * x(i + 1) + V(i);
-	arrX[n]= (d(n) - a(n) * V(n - 1)) / (a(n) * U(n - 1) + b(n));
-	return arrX[i];
-}
-*/
-
 
 int main()
 {
